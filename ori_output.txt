@@ -1,0 +1,14 @@
+# Vibrio cholerae OriC Length Finder
+
+This project calculates the **length of the origin of replication (OriC)** in *Vibrio cholerae*.  
+It also counts the occurrences of each nucleotide (A, T, G, C).
+
+## Files
+- `ori_length.py` → Python script that calculates Ori length and nucleotide counts.  
+- `README.md` → Project description.
+
+## Example Run
+```bash
+$ python ori_length.py
+Length of Vibrio cholerae Ori sequence: 245
+Nucleotide counts: {'A': 68, 'T': 61, 'G': 59, 'C': 57}
